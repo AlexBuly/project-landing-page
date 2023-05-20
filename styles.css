@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -19,8 +21,18 @@ a {
     justify-content: flex-end;
     gap: 16px;
     margin-right: 100px;
+    color: #E5E7EB
 }
 
 .logo {
     margin-left: 100px;
+    color: #F9FAF8
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 25px;
 }
