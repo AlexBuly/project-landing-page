@@ -21,12 +21,14 @@ a {
     justify-content: flex-end;
     gap: 16px;
     margin-right: 100px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    align-items: center;
 }
 
 .logo {
     margin-left: 100px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 footer {
