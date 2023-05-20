@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    font-size: 18px;
+    background-color: #1F2937;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 100px;
+}
+
+.logo {
+    margin-left: 100px;
+}
