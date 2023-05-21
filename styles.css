@@ -20,20 +20,21 @@ a {
     flex: 1;
     justify-content: flex-end;
     gap: 16px;
-    margin-right: 100px;
+    margin-right: 48px;
+    margin-left: 48px;
     color: #E5E7EB;
     align-items: center;
 }
 
 .logo {
-    margin-left: 100px;
+    margin-left: 48px;
     color: #F9FAF8;
     font-size: 24px;
 }
 
 .hero {
     display: flex;
-    padding: 48px 100px;
+    padding: 48px;
     color: #E5E7EB;
     background-color: #1F2937;
 }
@@ -45,6 +46,11 @@ a {
 
 .heading p {
     margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.info {
+    margin-right: 32px;
 }
 
 .text {
@@ -52,7 +58,7 @@ a {
 }
 
 .hero img {
-    width: 300px;
+    width: 490px;
     height: 200px;
 }
 
