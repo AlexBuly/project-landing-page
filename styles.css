@@ -44,7 +44,6 @@ a {
 }
 
 .text p {
-    margin: 0;
     align-items: center;
 }
 
@@ -53,9 +52,6 @@ a {
     height: 200px;
 }
 
-button {
-    display: flex;
-}
 
 footer {
     display: flex;
