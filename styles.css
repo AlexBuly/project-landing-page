@@ -38,13 +38,17 @@ a {
     background-color: #1F2937;
 }
 
-.text {
+.heading {
     font-size: 48px;
     font-weight: 800;
 }
 
-.text p {
-    align-items: center;
+.heading p {
+    margin-bottom: 0px;
+}
+
+.text {
+    margin-top: 0px;
 }
 
 .hero img {
