@@ -7,7 +7,7 @@ body {
 .header {
     display: flex;
     font-size: 18px;
-    background-color: #1F2937;  
+    background-color: #1F2937; 
 }
 
 a {
@@ -60,12 +60,18 @@ a {
 .hero img {
     width: 490px;
     height: 200px;
+    object-fit: contain;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    margin: 0 90px;
+    padding: 0 90px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
 }
 
 .container .heading {
@@ -75,6 +81,8 @@ a {
 
 .images {
     display: flex;
+    margin-left: 150px;
+    flex-wrap: wrap;
 }
 
 .img-container {
