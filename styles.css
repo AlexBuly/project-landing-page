@@ -43,12 +43,12 @@ a {
     background-color: #1F2937;
 }
 
-.heading {
+.head {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 800;   
 }
 
-.heading p {
+.head p {
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -76,6 +76,7 @@ a {
 .heading {
     display: flex;
     justify-content: center;
+    font-weight: 800;
 }
 
 .container .heading {
