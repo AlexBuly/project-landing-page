@@ -65,15 +65,26 @@ a {
 .container {
     display: flex;
     flex-direction: column;
+    margin: 0 90px;
+}
+
+.container .heading {
+    text-align: center;
+    font-size: 36px;
 }
 
 .images {
     display: flex;
 }
 
-.images img {
-    height: 200px;
+.img-container {
     width: 200px;
+}
+
+.images img {
+    flex: 1;
+    height: 140px;
+    width: 140px;
     object-fit: contain;
 }
 
