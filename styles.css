@@ -79,7 +79,7 @@ a {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0 90px;
+    padding: 0 90px 48px;
 }
 
 .heading {
@@ -117,6 +117,14 @@ a {
     font-style: italic;
     color: #1F2937;
     padding: 48px;
+}
+
+.action-call {
+    background-color: #3882F6;
+    margin: 48px;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
 }
 
     
