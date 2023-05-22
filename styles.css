@@ -67,7 +67,7 @@ a {
     object-fit: contain;
 }
 
-button {
+.button-1 {
     background-color: #3882F6;
     color: white;
     border: 0;
