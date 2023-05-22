@@ -62,7 +62,22 @@ a {
     height: 200px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
+.images {
+    display: flex;
+}
+
+.images img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+    
 footer {
     display: flex;
     background-color: #1F2937;
