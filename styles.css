@@ -120,13 +120,19 @@ a {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
-    padding: 48px;
+    padding: 84px;
+    gap: 16px;
 }
 
-.quote-author {
+.quote-text p {
+    margin: 0px;
+}
+
+.quote-author p {
     font-size: 24px;
     font-style: normal;
     font-weight: bold;
+    margin: 0px;
 }
 
 .action-call {
@@ -134,7 +140,7 @@ a {
     margin: 48px;
     color: white;
     border-radius: 5px;
-    padding: 16px;
+    padding: 36px 60px;
     display: flex;
     flex-direction: column;
 }
@@ -143,6 +149,10 @@ a {
     margin: 0px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.action-text p {
+    margin: 0px;
 }
     
 footer {
