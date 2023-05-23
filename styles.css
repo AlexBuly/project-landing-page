@@ -154,6 +154,21 @@ a {
 .action-text p {
     margin: 0px;
 }
+
+.action-text {
+    display: flex;
+}
+
+.button-2 {
+    margin-left: auto;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
     
 footer {
     display: flex;
