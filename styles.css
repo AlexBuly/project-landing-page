@@ -36,7 +36,7 @@ a {
     margin-left: 48px;
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .hero {
@@ -46,14 +46,13 @@ a {
     background-color: #1F2937;
 }
 
-.head {
-    font-size: 48px;
-    font-weight: 800;   
-}
+
 
 .head p {
     margin-bottom: 0px;
     margin-top: 0px;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .info {
@@ -88,7 +87,7 @@ a {
 .heading {
     display: flex;
     justify-content: center;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .container .heading {
